@@ -4,18 +4,14 @@
 *{
   box-sizing: border-box;
 }
-/* div{
-  border: 1px solid red;
-} */
 .container{
 outline: 5px solid midnightblue;
 border-radius: var(--rad);
 width: 450px;
-height: 600px;
+height: 630px;
 margin: 20px auto;
 }
 .img-container{
-  
   width: 240px;
   height: 240px;
   margin: auto;
@@ -23,19 +19,16 @@ margin: 20px auto;
 }
 .header{
   width: 100%;
-  height: 30%;
+  height: 20%;
   border-top-left-radius: var(--rad);
   border-top-right-radius: var(--rad);
-  background-image: url(../images/photo_2024-01-24_08-34-53.jpg);
-}
+ }
 .photo{
   width: inherit;
   height: inherit;
-  border: 10px solid white;
+  border: 12px solid rgb(249, 246, 246);
   border-radius: 50%;
   object-fit: cover;
-  /* object-position:; */
-  
 }
 .info-header{
   text-align: center;
@@ -53,25 +46,70 @@ letter-spacing: 5px;
   font-size: 20px;
 }
 .footer{
-  text-align: center;
-  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: 15%;
+  background-color: #2c55b6;
+  border-bottom-right-radius: 39%;
+  border-bottom-left-radius: 39%;
+  
+  
+  /* text-align: center; */
+  /* margin-top: 50px; */
 }
 .social-net{
-  display: inline-block;
-  margin: 0 5px;
-  width: 30px;
-  height: 30px;
-  outline: 1px solid;
-  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  margin:-10px 50px;
+  width: 100%;
+  height: 100%;
+  /* outline: 1px solid; */
+  /* border-radius: 50%; */
   padding-top: 7px;
-  color: white;
-}
-.face{
-  background-color: cornflowerblue;
   
+  /* color: white; */
 }
+/* .face{
+  background-color: cornflowerblue;
+  } */
 .header-city{
   display: flex;
   justify-content: center;
-  /* margin-top: 60px; */
 }
+.city{
+  display: flex;
+  justify-content: center;
+  padding-top: 20px;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  }
+  /* .fa-telegram{
+    margin: 10px; */
+  /* } */
+  .name{
+    font-family: Arial, Helvetica, sans-serif;
+    opacity: 0.8;
+    font-weight: lighter;
+    font-size: 26px;
+  }
+  .button{
+    padding: 15px;
+    width: 27%;
+    margin: 30px 165px;
+    color: white;
+    background-color:rgb(97, 185, 226);
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 10%;
+    border: hidden;
+    border-bottom: 3px solid rgb(25, 87, 114);
+  }
+  .sum{
+    margin-top: -15px;
+  }
+  .fa{
+    margin-top: 20px;
+    margin-right: 10px;
+    font-size: 30px;
+  }
