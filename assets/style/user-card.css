@@ -34,13 +34,11 @@
   object-fit: cover;
 }
 .info-header {
-  text-align: center;
-}
-.info-header {
   font-size: 20px;
   color: rgb(0, 0, 0, 0.7);
   margin-top: -10px;
   letter-spacing: 5px;
+  text-align: center;
 }
 .info-main > p {
   width: 80%;
